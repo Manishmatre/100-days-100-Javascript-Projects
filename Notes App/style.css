@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+  background: rgb(162, 102, 231);
+  background: linear-gradient(
+    225deg,
+    rgba(162, 102, 231, 1) 0%,
+    rgba(190, 141, 77, 0.9920343137254902) 76%,
+    rgba(125, 23, 180, 0.7959558823529411) 99%,
+    rgba(62, 13, 153, 1) 100%
+  );
+}
+
+.container h1 {
+  font-size: 32px;
+  color: white;
+  /* margin: 20px 0; */
+}
+
+.container button {
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  background: linear-gradient(24deg, rgb(255, 0, 247), rgb(255, 234, 0));
+  border-radius: 10px;
+  color: white;
+  margin: 5px 0;
+  border-bottom: 2px solid transparent;
+}
+
+button:hover {
+  background: linear-gradient(24deg, rgb(250, 5, 242), rgb(242, 223, 10));
+}
+button:active {
+  border-bottom: 2px solid white;
+  transform: translateY(1px);
+}
+
+.notes-container {
+  margin-top: 20px;
+  width: 100%;
+  /* min-height: 500px; */
+  background-color: rgba(255, 255, 255, 0.103);
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.notes-container p {
+  /* max-width: 400px;    */
+  width: 30%;
+  width: 450px;
+  min-height: 100px;
+  background-color: white;
+  text-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  margin: 10px;
+  position: relative;
+  text-align: start;
+}
+
+.notes-container p img {
+  width: 35px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+  padding: 8px 8px;
+  border-radius: 50%;
+  transition: 0.4s ease;
+}
+.notes-container p img:hover {
+  border: 1px solid rgb(255, 205, 205);
+}
