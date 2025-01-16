@@ -8,7 +8,7 @@ body {
     text-align: center;
     /* margin-top: 50px; */
     padding-top: 100px;
-    background: linear-gradient(135deg, #ff4c52 0%, #fad0c4 100%);
+    background: linear-gradient(135deg, #ff4c52 0%, #f89377 100%);
     color: #333;
     height: 100vh;
 }
@@ -21,7 +21,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
     margin: 0 auto;
     position: relative;
