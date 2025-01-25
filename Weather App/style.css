@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(68, 66, 66);
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background: linear-gradient( 124deg, rgb(0, 110, 255), rgb(5, 224, 195));
+
+}
+.header-section{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.header-section input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.header-section button{
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 45px;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.weather-status{
+    /* width: 200px;     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+    /* background-color: red; */
+    padding: 20px;    
+}
+
+.weather-status img{
+   mix-blend-mode: darken;
+   width: 200px;
+}
+
+.weather-status h1{
+    font-size: 64px;
+    color: white;
+    
+
+}
+.weather-status h3{
+    font-size: 28px;
+    color: white;
+    position: relative;
+
+}
+
+.app-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.col{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.col h1{
+    font-size: 46px;
+    color: white;
+}
+
+.footer-text h2{
+    font-size: 24px;
+    color: rgb(56, 55, 55);
+}
